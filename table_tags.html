@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Table Tags</title>
+</head>
+<body>
+	<h1><i>Table Tags</i></h1>
+	<p>
+		Tables always look with <b>rows and columns</b> <br>
+		Small boxes (Example: 1st row 1st column) are called as <b>Cells</b> <br>
+		We have to use <span style = "color: red"><b>Table Tag</b></span> to create tables . <br>
+	</p>
+	Let's create a table <br>
+	<table border="3" cellpadding="7" cellspacing="2" style = "border-collapse: collapse;">
+		<tr>
+			<th>S no. </th>
+			<th>Name </th>
+			<th>Roll no. </th>
+		</tr>
+		<tr>
+			<td>1.</td>
+			<td>Darsi Gangothri</td>
+			<td>20JR1A4306</td>
+		</tr>
+		<tr>
+			<td>2.</td>
+			<td>Darsi Gokul</td>
+			<td>20JR1A4307</td>
+		</tr>
+	</table>
+	Let's create another table <br>
+	<table border="3" cellpadding="7" cellspacing="2" style = "border-collapse: collapse;">
+		<tr>
+			<th>S no. </th>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Gender</th>
+			<th>College</th>
+		</tr>
+		<tr>
+			<td>1.</td>
+			<td>Darsi Gangothri</td>
+			<td>17</td>
+			<td>Female</td>
+			<td>KITS</td>
+		</tr>
+		<tr>
+			<td>2.</td>
+			<td>Darsi Gokul</td>
+			<td>17</td>
+			<td>Male</td>
+			<td>MPES</td>
+		</tr>
+		<tr>
+			<td>3.</td>
+			<td>Joker</td>
+			<td>20</td>
+			<td>Male</td>
+			<td>Harvard</td>
+		</tr>
+	</table>
+
+	<hr>
+
+	<h3><i>Colspan</i></h3>
+	Let's understand by creating a table <br>
+	<table border = "3" cellspacing="4" cellpadding="7" style="border-collapse: collapse;">
+		<tr>
+			<th colspan="2">Name</th>
+			<th>Age</th>
+			<th colspan="4">Marks</th>
+		</tr>
+		<tr>
+			<td>First Name</td>
+			<td>Last Name</td>
+			<td></td>
+			<td>DE</td>
+			<td>BEEE</td>
+			<td>C</td>
+			<td>PYTHON</td>
+		</tr>
+		<tr>
+			<td>Darsi</td>
+			<td>Gangothri</td>
+			<td>17</td>
+			<td>98</td>
+			<td>99</td>
+			<td>100</td>
+			<td>100</td>
+		</tr>
+	</table>
+	<hr>
+	<h3><i>Rowspan</i></h3>
+
+	<table border="3" cellpadding="7" cellspacing="3" style = "border-collapse: collapse;">
+		<tr>
+			<th rowspan="2">Name</th>
+			<th>First Name</th>
+			<td>Pen</td>
+			<td>Water</td>
+			<td>Lunch</td>
+		</tr>
+		<tr>
+			<th>Last Name</th>
+			<td>cil</td>
+			<td>Bottle</td>
+			<td>Box</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td></td>
+			<td> 17</td>
+			<td>5</td>
+			<td>9</td>
+		</tr>
+		<tr>
+			<th rowspan="4">Marks</th>
+			<th>Telugu</th>
+			<td>98</td>
+			<td>78</td>
+			<td>89</td>
+		</tr>
+		<tr>
+			<th>Hindi</th>
+			<td>78</td>
+			<td>91</td>
+			<td>94</td>
+		</tr>
+		<tr>
+			<th>English</th>
+			<td>88</td>
+			<td>81</td>
+			<td>64</td>
+		</tr>
+		<tr>
+			<th>Physics</th>
+			<td>91</td>
+			<td>80</td>
+			<td>60</td>
+		</tr>
+	</table>
+
+	<hr>
+	<h2><i>Rowspan and Colspan</i></h2>
+
+	<table border="3" cellpadding="5" cellspacing="1">
+		<tr>
+			<th colspan="7">Time Table</th>
+		</tr>
+		<tr>
+			<th rowspan="6">Hours</th>
+			<th>Mon</th>
+			<th>Tue</th>
+			<th>Wed</th>
+			<th>Thu</th>
+			<th>Fri</th>
+			<th>Sat</th>
+		</tr>
+
+		<tr>
+			<td>Social Science</td>
+			<td>Maths</td>
+			<td>Physics</td>
+			<td>Biology</td>
+			<td>Arts</td>
+			<td>P.Ed</td>
+		</tr>
+
+		<tr>
+			<td>Chemistry</td>
+			<td>History</td>
+			<td>English</td>
+			<td>Maths</td>
+			<td>Sports</td>
+			<td>Env. Sc. </td>
+		</tr>
+		<tr>
+			<th colspan="5">Lunch</th>
+			<td rowspan="3">Half Day</td>
+		</tr>
+		<tr>
+			<td>Maths</td>
+			<td>Biology</td>
+			<td>Physics</td>
+			<td>Social Science</td>
+			<td rowspan="2">Project</td>
+		</tr>
+
+		<tr>
+			<td>Chemistry</td>
+			<td>Maths</td>
+			<td>Sports</td>
+			<td>Physics</td>
+		</tr>
+	</table>
+
+
+	<h2><i>Our Class Time table</i></h2>
+	<i> Time is in <b>24 hour format</b></i> <br> <br>
+	<table border="3" style="text-align: center; border-collapse: collapse;" cellpadding="5">
+		<tr>
+			<th rowspan="2">Period/Day</th>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th rowspan="2">13:10 - 14:00</th>
+			<th>4</th>
+			<th>5</th>
+			<th>6</th>
+		</tr>
+		<tr>
+			<th>9:55-11:00</th>
+			<th>11:00-12:05</th>
+			<th>12:05-13:00</th>
+			<th>14:00-15:05</th>
+			<th>15:05-16:10</th>
+			<th>16:10-17:15</th>
+		</tr>
+		<tr>
+			<td>Mon</td>
+			<td colspan="3">IT WORKSHOP</td>
+			<td rowspan="6">L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>E<br>A<br>K</td>
+			<td>BEEE</td>
+			<td>PPSUC</td>
+			<td>M1</td>
+		</tr>
+
+		<tr>
+			<td>TUE</td>
+			<td colspan="3">ENGG GRAPHICS</td>
+			<td>CHE</td>
+			<td>BEEE</td>
+			<td>PPSUC</td>
+		</tr>
+
+		<tr>
+			<td>WED</td>
+			<td>CHE</td>
+			<td>PPSUC</td>
+			<td>M1</td>
+			<td colspan="3">CHE LAB</td>
+		</tr>
+
+		<tr>
+			<td>THU</td>
+			<td>M1</td>
+			<td>BEEE</td>
+			<td>CHE</td>
+			<td colspan="2">ENGG GRAPHICS</td>
+			<td>LIB</td>
+		</tr>
+
+		<tr>
+			<td>FRI</td>
+			<td>M1</td>
+			<td>CHE</td>
+			<td>PPSUC</td>
+			<td>BEEE</td>
+			<td colspan="2">SPORTS</td>
+		</tr>
+
+		<tr>
+			<td>SAT</td>
+			<td>PPSUC</td>
+			<td>BEEE</td>
+			<td>M1</td>
+			<td colspan="3">PPSUC LAB</td>
+		</tr>
+	</table>
+
+</body>
+</html>
