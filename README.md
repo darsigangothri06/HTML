@@ -1,9 +1,9 @@
 # _HyperText Markup Language_
 ## 📂 _This Repository contains all of my HTML files and folders_
-🔗 Source: **[GreatLearning Academy - HTML and CSS Full Course](https://www.youtube.com/watch?v=uhza_QbzR7o)** <br>
-💻 HTML editor: **[Sublime Text 3](https://www.sublimetext.com/3)** <br>
-📖 Book: **HTML and CSS Design and Build Websites by _Jon Duckett_**
-### 🔭 _Contents :_ 
+🔗 Source : **[GreatLearning Academy - HTML and CSS Full Course](https://www.youtube.com/watch?v=uhza_QbzR7o)** <br>
+💻 HTML editor : **[Sublime Text 3](https://www.sublimetext.com/3)** <br>
+📖 Book : **HTML and CSS Design and Build Websites by _Jon Duckett_**
+### 🚀 _Contents :_ 
 * [HTML skeleton](https://github.com/darsigangothri06/HTML/blob/main/html_skeleton.html)
 * [HTML Comments](https://github.com/darsigangothri06/HTML/blob/main/comments.html)
 * [Block Level Elements](https://github.com/darsigangothri06/HTML/blob/main/block_level_elements.html)
