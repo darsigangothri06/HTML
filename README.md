@@ -1,7 +1,7 @@
 # _HyperText Markup Language_
 ## 💻 _This Repository contains all of my HTML files and folders_
 ### 🔭 _Contents :_ 
-* **HTML editor** : [Sublime Text 3](https://www.sublimetext.com/3)
+* [HTML editor : Sublime Text 3](https://www.sublimetext.com/3)
 * [HTML skeleton](https://github.com/darsigangothri06/HTML/blob/main/html_skeleton.html)
 * [HTML Comments](https://github.com/darsigangothri06/HTML/blob/main/comments.html)
 * [Block Level Elements](https://github.com/darsigangothri06/HTML/blob/main/block_level_elements.html)
