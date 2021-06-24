@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Forms</title>
+</head>
+<body>
+	<form>
+			<label for = "fname">First Name: </label>
+			<input type = "text" name = "firstname" placeholder="Firstname" size="10" required=""> <br> <br>
+			<label for = "lname">Last Name: </label>
+			<input type = "text" name = "lastname" placeholder="Lastname" size="10" required=""> <br>
+	</form>
+	<h3>Radio Button Input : </h3>
+
+	<form>
+		<input type = "radio" id = "male" name = "gender" value = "male">
+		<label for = "male">Male</label> <br>
+		<input type = "radio" id = "female" name = "gender" value = "female">
+		<lable for = "female">Female</lable> <br>
+		<input type = "radio" id = "other" name = "gender" value = "other">
+		<lable for = "other">Other</lable><br>
+	</form>
+
+	<h3>Checkbox Input: </h3>
+	<form>
+		<input type = "checkbox" id = "male" name = "gender" value = "male">
+		<label for = "male">Male</label> <br>
+		<input type = "checkbox" id = "female" name = "gender" value = "female">
+		<lable for = "female">Female</lable> <br>
+		<input type = "checkbox" id = "other" name = "gender" value = "other">
+		<lable for = "other">Other</lable><br>
+	</form>
+
+	<h3>Type of your Job: </h3>
+	<form>
+		<input type = "checkbox" id = "male" name = "gender" value = "male">
+		<label for = "male">Govt Job</label> <br>
+		<input type = "checkbox" id = "female" name = "gender" value = "female">
+		<lable for = "female">Private Job</lable> <br>
+		<input type = "checkbox" id = "other" name = "gender" value = "other">
+		<lable for = "other">Other</lable><br>
+		<lable for = "otherjob">Mention: </lable><br>
+		<input type = "text" id = "otherjob" name = "otherjob"> <br>
+	</form>
+	<h3>SELECT TAG</h3>
+	<form>
+		<select size="3" multiple="multiple">
+			<option value = "Audi">Audi</option>
+			<option value = "BMW">BMW</option>
+			<option value = "MS" selected>MS</option>
+		</select>
+	</form>
+	<p>Click on Ctrl + option to select multiple options</p>
+	<br>
+
+	<h3>Text Area: </h3>
+	<form>
+		<textarea rows="10" cols="100">
+			My name is Darsi Gangothri, Welcome to this repo!!
+		</textarea>
+	</form>
+
+	<h3>Button Tag:</h3>
+	<form>
+		<button>Clear everything</button>
+	</form>
+
+	<h3>Fieldset and Legend</h3>
+	<form>
+		<fieldset >
+			<legend>Personal Info</legend>
+			<label for = "fname">First Name: </label><br>
+			<input type = "text" id = "fname" name = "firstname"> <br>
+			<label for = "lname">Last Name: </label> <br>
+			<input type = "text" id = "lname" name = "lastname"> <br>
+		</fieldset>
+	</form>
+
+	<h3>Data List</h3>
+	<form>
+		<input list="Qualification" >
+		<datalist id = "Qualification">
+			<option value = "12thclass">12th Class</option>
+			<option value="btech">B. Tech</option>
+			<option value="10thclass">10th Class</option>
+		</datalist>
+	</form>
+
+	<h3>Choose a file: </h3>
+	<form>
+		<lable for = "Resume">Choose a file to upload : </lable>
+		<input type="file" name="Resume" id = "Resume" value = "Resume"> <br>
+	</form>
+
+	<h3>Email and Password: </h3>
+	<form>
+		<lable for = "Email">Enter e-mail:</lable>
+		<input type = "e-mail" id="Email" placeholder="abcd@gmail.com"><br>
+		<label for="Pass">Password: </label>
+		<input type="Password" name="Pass"> <br>
+	</form>
+	<h3>Submit Button: </h3>
+	<form>
+		<input type="submit">
+		<input type="Button" value = "hello">
+	</form>
+
+</body>
+</html>
