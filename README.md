@@ -16,5 +16,5 @@
 * [HTML Forms](https://github.com/darsigangothri06/HTML/blob/main/html_forms.html)
 ---
 ### 🚀 _Other HTML files :_
-* [Dummy Registration Form](https://github.com/darsigangothri06/HTML/blob/main/reg_form.html)
+* [Sample Registration Form](https://github.com/darsigangothri06/HTML/blob/main/reg_form.html)
 
