@@ -13,7 +13,7 @@
 * [Basic Tags of HTML](https://github.com/darsigangothri06/HTML/blob/main/basic_tags.html)
 * [List Tags](https://github.com/darsigangothri06/HTML/blob/main/list_tags.html)
 * [Table Tags](https://github.com/darsigangothri06/HTML/blob/main/table_tags.html)
-* [HTML Forms](https://github.com/darsigangothri06/HTML/blob/main/html_forms.html)
+* [HTML Forms](https://github.com/darsigangothri06/HTML/blob/main/reg_form.html)
 ---
 ### 🚀 _Other HTML files :_
 * [Sample Registration Form](https://github.com/darsigangothri06/HTML/blob/main/reg_form.html)
