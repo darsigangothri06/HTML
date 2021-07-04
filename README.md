@@ -16,4 +16,15 @@
 * [HTML Forms](https://github.com/darsigangothri06/HTML/blob/main/reg_form.html)
 ---
 ### 🚀 _Other HTML files :_
-* [Sample Registration Form](https://github.com/darsigangothri06/HTML/blob/main/reg_form.html)
+<details>
+<summary>Forms</summary>
+
+* [Student Registration form](https://github.com/darsigangothri06/HTML/blob/main/reg_form.html)
+* [Student Registration form (updated)](https://github.com/darsigangothri06/HTML/blob/main/reg_form_updated.html "added image to button, copyright symbols")
+</details>
+  
+  
+  
+<!-- * [Sample Registration Form](https://github.com/darsigangothri06/HTML/blob/main/reg_form.html)
+* []()
+ -->
