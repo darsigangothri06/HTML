@@ -17,4 +17,3 @@
 ---
 ### 🚀 _Other HTML files :_
 * [Sample Registration Form](https://github.com/darsigangothri06/HTML/blob/main/reg_form.html)
-
